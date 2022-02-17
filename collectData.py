@@ -42,7 +42,7 @@ db_conn = ('Driver={ODBC Driver 17 for SQL Server};'  # This will require adjust
                       )
 
 # Send confirmation of rebuild to
-adminNotify = 'gisdba@bellevuewa.gov'
+adminNotify = 'gisdba@gis.dev'
 
 # Configure the e-mail server and other info here.
 mail_server = '	smtp-relay.gmail.com'
