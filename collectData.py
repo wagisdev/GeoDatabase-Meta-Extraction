@@ -27,14 +27,14 @@ sourcesGIS_DB = [(r'D:\TestDrive\Main.sde'), (r'D:\TestDrive\Web.sde'),
              (r'D:\TestDrive\Test.sde')]
 
 # Data Sources MS SQL Databases
-sourcesMSSQL_DB = [(r'GISData\Test', 'Carta')]
+sourcesMSSQL_DB = [(r'GISData\Test', 'StandInDB')]
 
 # Data Sources Oracle Databases
 sourcesOracle = []
 
 # Configure hard coded db connection here.
 db_conn = ('Driver={ODBC Driver 17 for SQL Server};'  # This will require adjustment if you are using a different database.
-                      r'Server=GISPRODDB\GIS;'
+                      r'Server=GISSQL2019\GIS;'
                       'Database=GISDBA;'
                       'Trusted_Connection=yes;'  #Only if you are using a AD account.
                       #r'UID=;'  # Comment out if you are using AD authentication.
